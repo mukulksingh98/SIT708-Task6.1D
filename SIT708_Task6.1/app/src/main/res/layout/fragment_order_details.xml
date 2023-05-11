@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderDetailsFragment"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/white"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Details"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/truckImageView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/fromUserNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/pickUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/userTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dropoffTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goods Description"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="380dp"/>
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="440dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/goodsTextView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="440dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/widthTextView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="530dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/heightTextView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="530dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/lengthTextView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="620dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="620dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="TextView"/>
+
+    <Button
+        android:id="@+id/callDriverButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="710dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Call Driver" />
+
+
+
+</FrameLayout>

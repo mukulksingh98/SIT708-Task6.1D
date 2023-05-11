@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Task6.1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="timeArray">
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+    </string-array>
+
+    <string-array name="goodsArray">
+        <item>Furniture</item>
+        <item>Dry Goods</item>
+        <item>Food</item>
+        <item>Building Material</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="vehicleArray">
+        <item>Truck</item>
+        <item>Van</item>
+        <item>Refrigerated Truck</item>
+        <item>Mini Truck</item>
+    </string-array>
+</resources>
